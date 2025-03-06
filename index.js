@@ -9,6 +9,8 @@ let books = [
     { id: 2, title: 'To Kill a Mockingbird', author: 'Harper Lee', year: 1960 },
 ];
 
+
+
 // Function to handle incoming requests
 const requestHandler = (req, res) => {
     const parsedUrl = url.parse(req.url, true);
